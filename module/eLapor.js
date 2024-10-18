@@ -7,9 +7,7 @@ document.addEventListener("DOMContentLoaded", function () {
       .getElementById("email-form")
       .addEventListener("submit", function (event) {
         event.preventDefault();
-
         btn.textContent = "Sending...";
-
         const serviceId = "service_16zmfzl";
         const templateId = "template_3ce2wtg";
 
