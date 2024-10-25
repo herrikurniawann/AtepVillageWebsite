@@ -8,8 +8,8 @@ document.addEventListener("DOMContentLoaded", function () {
       .addEventListener("submit", function (event) {
         event.preventDefault();
         btn.textContent = "Sending...";
-        const serviceId = "service_16zmfzl";
-        const templateId = "template_3ce2wtg";
+        const serviceId = "API_serviceId";
+        const templateId = "API_templateId";
 
         emailjs.sendForm(serviceId, templateId, this).then(
           () => {
